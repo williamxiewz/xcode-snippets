@@ -15,4 +15,4 @@ for root, dirs, files in os.walk("."):
 				elif key.firstChild.nodeValue == 'IDECodeSnippetCompletionPrefix':
 					prefix = key.nextSibling.nextSibling.firstChild.nodeValue
 			# print "[%s] %s" % (prefix, summary)
-			print '{0: <36} {1}'.format(prefix, summary)
+			print "{0: <36} {1}".format(prefix, summary)
